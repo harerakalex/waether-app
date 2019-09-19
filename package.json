@@ -7,7 +7,7 @@
     "coveralls": "cat coverage/lcov.info | coveralls",
     "test:CI": "CI=true jest \"-- --coverage\"",
     "clean:build": "rimraf ./build && mkdir build",
-    "prebuild": "run-p clean:build test:ci",
+    "prebuild": "run-p clean:build test:CI",
     "build": "webpack --config webpack.config.prod.js",
     "postbuild": "run-p serve:build",
     "serve:build": "http-server ./build"
