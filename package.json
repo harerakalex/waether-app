@@ -5,7 +5,7 @@
     "start": "webpack-dev-server --config webpack.config.dev.js --port 3000",
     "test": "jest --watchAll \"-- --coverage\"",
     "coveralls": "cat coverage/lcov.info | coveralls",
-    "test:ci": "jest",
+    "test:CI": "jest",
     "clean:build": "rimraf ./build && mkdir build",
     "prebuild": "run-p clean:build test:ci",
     "build": "webpack --config webpack.config.prod.js",
