@@ -13,7 +13,7 @@ const HomePage = () => (
       Learn more
     </Link>{' '}
     <Link to="weather" className="btn btn-success btn-lg">
-      Learn more
+      See weather
     </Link>
   </div>
 );

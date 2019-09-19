@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should pass 1`] = `
+<div
+  className="jumbotron"
+>
+  <h1>
+    Current weather in your location
+  </h1>
+  <p>
+    <small>
+      Temp: 
+    </small>
+    <strong>
+      23
+    </strong>
+  </p>
+  <p>
+    <small>
+      pressure: 
+    </small>
+    <strong>
+      30
+    </strong>
+  </p>
+  <p>
+    <small>
+      humidity: 
+    </small>
+    <strong>
+      30
+    </strong>
+  </p>
+</div>
+`;
